@@ -1,13 +1,13 @@
 names: # class names
   0: HandRising
-  1: Reading #如果还有其他类别，以此往下加就行了，类别号请认真和自己当时目标框labels文件中的一一对应
+  1: Reading
   2: Writing
   3: UsingPhone
   4: BowingHead
   5: LeaningTable
-#nc: 6 # number of classes 数据集中一共有几个类别，参考上面说的
-path: C:\yolov10\datasets\Data # 数据集路径（需要改成自己的，也就是train、test和valid目录的上级目录）
-train: train/images # 训练集路径(相对于数据集路径)
-val: valid/images # 验证集路径(相对于数据集路径)
-test: test/images # 测试集路径(相对于数据集路径)
+#nc: 6 # number of classes
+path: C:\yolov10\datasets\Data
+train: train/images
+val: valid/images
+test: test/images
 
